@@ -1,18 +1,12 @@
 
 
 {
-  "homepage": "https://RonaldoFagundes.github.io/webreactv1.git"
-}
-
-{
    "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-native start",   
   },
   "dependencies": {
     "expo": "~42.0.1",
